@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height = "wrap_content"
+    android:orientation = "vertical"
+    android:padding = "10dp"
+    android:fillViewport = "false"
+    android:background="@color/background">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/txtciudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciudad"
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            android:textColor="@color/title"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:id="@+id/txtprovincia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provincia"
+            android:textSize="24dp"
+            android:visibility="visible"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/subtitle"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="4">
+
+
+
+
+        <TextView
+            android:id="@+id/txtdescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
