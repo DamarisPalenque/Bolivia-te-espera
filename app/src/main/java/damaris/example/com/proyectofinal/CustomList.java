@@ -34,7 +34,7 @@ public class CustomList extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
-        View rowView= inflater.inflate(R.layout.activity_main, null, true);
+        View rowView= inflater.inflate(R.layout.list_single, null, true);
         TextView txtCiudad = (TextView) rowView.findViewById(R.id.ciudad);
         TextView txtProvincia = (TextView) rowView.findViewById(R.id.provincia);
         TextView txtDescripcion = (TextView) rowView.findViewById(R.id.descripcion);
