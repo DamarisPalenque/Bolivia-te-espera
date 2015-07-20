@@ -40,14 +40,14 @@
             android:textColor="@color/subtitle"
             android:textAppearance="?android:attr/textAppearanceSmall"/>
 
-        <!-- Parts Layout Invisibilities-->
+        <!-- Parts Layout Invisibilities
         <TextView
             android:id="@+id/descripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Small Text"
             android:visibility="gone"
-            android:textAppearance="?android:attr/textAppearanceSmall"/>
+            android:textAppearance="?android:attr/textAppearanceSmall"/>-->
 
     </LinearLayout>
 

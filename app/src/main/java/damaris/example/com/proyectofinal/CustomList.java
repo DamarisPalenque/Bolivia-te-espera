@@ -20,7 +20,7 @@ public class CustomList extends ArrayAdapter<String> {
     private final Integer[] imageId;
 
     public CustomList(Activity context, String[] ciudad, String[] provincia, String[] descripcion, Integer[] imageId) {
-        super(context, R.layout.list_single, ciudad);
+        super(context, R.layout.activity_main, ciudad);
         this.context = context;
         this.ciudad = ciudad;
         this.provincia = provincia;
